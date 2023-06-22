@@ -27,3 +27,7 @@ function ep_btn() {
 function ts_btn() {
   location.href = "https://nouhidev.github.io/traffic-simulation";
 }
+
+function as_btn() {
+  location.href = "https://nouhidev.github.io/archimedes-screw-simulation";
+}
