@@ -31,3 +31,7 @@ function ts_btn() {
 function as_btn() {
   location.href = "https://nouhidev.github.io/archimedes-screw-simulation";
 }
+
+function es_btn() {
+  location.href = "https://nouhidev.github.io/ecosystem-simulation/";
+}
