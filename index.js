@@ -35,3 +35,13 @@ function as_btn() {
 function es_btn() {
   location.href = "https://nouhidev.github.io/ecosystem-simulation/";
 }
+
+/* Setup global Navbar */ 
+const NAV_URL = "https://nouhi.dev/assets/html-templates/navbar.txt";
+
+fetch(NAV_URL)
+  .then( r => r.text() )
+  .then( t => {
+    var whereToInject = document.getElementsByTagName("header")[0];
+    whereToInject.innerHTML += t;
+});
